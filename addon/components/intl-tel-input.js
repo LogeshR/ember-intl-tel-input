@@ -4,6 +4,7 @@ import Ember from 'ember';
 import layout from '../templates/components/intl-tel-input';
 
 export default Ember.TextField.extend({
+  //Freshfone
   layout: layout,
   tagName: 'input',
   attributeBindings: ['type'],
